@@ -1,0 +1,17 @@
+{
+    "name": "martin/example-di",
+    "authors": [
+        {
+            "name": "Emma Watson",
+            "email": "themaymeow@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emma\\DI\\": "src/"
+        }
+    }
+}
